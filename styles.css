@@ -8,7 +8,6 @@
 }
 *{
     background-color: skyblue;
-    text-align: center;
 }
 #searchBar{
     font-size: 25px;
@@ -46,4 +45,25 @@ input{
     width: 100px;
     text-align: center;
     margin: auto;
+}
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+li {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    border-right: 1px white solid;
+    cursor: pointer;
+    background-color: #333;
+}
+li:hover{
+    background-color: grey;
 }
